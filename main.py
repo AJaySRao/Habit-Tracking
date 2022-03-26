@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-today = datetime(year=2022 , month=3, day= 21)
+today = datetime(year=2022, month=3, day= 21)
 DATE = today.strftime("%Y%m%d")
 pixel_endpoint = "https://pixe.la/v1/users"
 TOKEN = "hmgv54asf45sdaf4532fsfdd3"
